@@ -1,3 +1,11 @@
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Your original imports follow below
+from engine import data_loader as dl, market_calendar as mcal, portfolio as pf
+
 """
 app.py
 ------
